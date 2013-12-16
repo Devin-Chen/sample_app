@@ -9,7 +9,7 @@ gem 'rails', '4.0.0'
 
 group :development, :test do
 	gem 'sqlite3'
-	gem 'rspec-rails'
+	gem 'rspec-rails', '2.9.0'
 end
 
 
@@ -25,7 +25,7 @@ group :production do
 end
 
 group :test do
-	gem 'capybara'
+	gem 'capybara', '1.1.2'
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
